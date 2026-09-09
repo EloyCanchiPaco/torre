@@ -6,6 +6,12 @@ public:
 	short int columnas;
 private:
 	bool isBack;
+	torre(short f, short c) {
+		filas = f;
+		columnas = c;
+		isBack = false;
+
+	}
 };
 int main()
 {
